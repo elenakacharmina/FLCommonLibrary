@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		17D8D3B44B3CA601477377BF /* Pods_FLCommonLibrary_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7311BBF82B148D418A918E /* Pods_FLCommonLibrary_Tests.framework */; };
+		28CB29F027B285E300C78BFD /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 28CB29EE27B285E200C78BFD /* .gitkeep */; };
+		28CB29F127B285E300C78BFD /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CB29EF27B285E300C78BFD /* ReplaceMe.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -29,6 +31,8 @@
 
 /* Begin PBXFileReference section */
 		26B6956BCE73B36201C81731 /* Pods-FLCommonLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLCommonLibrary_Example.release.xcconfig"; path = "Target Support Files/Pods-FLCommonLibrary_Example/Pods-FLCommonLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
+		28CB29EE27B285E200C78BFD /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		28CB29EF27B285E300C78BFD /* ReplaceMe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* FLCommonLibrary_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLCommonLibrary_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,10 +45,10 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		800BCCCFE0D86E155B4DDF8C /* Pods-FLCommonLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLCommonLibrary_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FLCommonLibrary_Tests/Pods-FLCommonLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AC7311BBF82B148D418A918E /* Pods_FLCommonLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLCommonLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEA4337904A5C66DE853EF12 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CEA4337904A5C66DE853EF12 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DE5546E926936C9D1A485D75 /* Pods-FLCommonLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLCommonLibrary_Tests.release.xcconfig"; path = "Target Support Files/Pods-FLCommonLibrary_Tests/Pods-FLCommonLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		ED66450C19397D0D073D7691 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		EDF77A7BE9C7A6AFA51592E1 /* FLCommonLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FLCommonLibrary.podspec; path = ../FLCommonLibrary.podspec; sourceTree = "<group>"; };
+		ED66450C19397D0D073D7691 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EDF77A7BE9C7A6AFA51592E1 /* FLCommonLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FLCommonLibrary.podspec; path = ../FLCommonLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F41603254A71954806B1146A /* Pods-FLCommonLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLCommonLibrary_Example.debug.xcconfig"; path = "Target Support Files/Pods-FLCommonLibrary_Example/Pods-FLCommonLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FEFB6CC17C8B74A54ABA3282 /* Pods_FLCommonLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLCommonLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -78,6 +82,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		28CB29ED27B285E200C78BFD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				28CB29EE27B285E200C78BFD /* .gitkeep */,
+				28CB29EF27B285E300C78BFD /* ReplaceMe.swift */,
+			);
+			name = Classes;
+			path = ../FLCommonLibrary/Classes;
+			sourceTree = "<group>";
+		};
 		4D8802BB9737BAC1875E7B86 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,13 +100,13 @@
 				800BCCCFE0D86E155B4DDF8C /* Pods-FLCommonLibrary_Tests.debug.xcconfig */,
 				DE5546E926936C9D1A485D75 /* Pods-FLCommonLibrary_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				28CB29ED27B285E200C78BFD /* Classes */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for FLCommonLibrary */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -227,6 +241,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -249,6 +264,7 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				28CB29F027B285E300C78BFD /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28CB29F127B285E300C78BFD /* ReplaceMe.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);

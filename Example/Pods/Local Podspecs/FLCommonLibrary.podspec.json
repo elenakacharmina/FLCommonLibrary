@@ -1,0 +1,22 @@
+{
+  "name": "FLCommonLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of FLCommonLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Elena/FLCommonLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Elena": "e.kacharmina@ktsstudio.ru"
+  },
+  "source": {
+    "git": "https://github.com/Elena/FLCommonLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "FLCommonLibrary/Classes/**/*"
+}
